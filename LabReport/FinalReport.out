@@ -1,0 +1,49 @@
+\BOOKMARK [1][-]{section.1}{Input-output equations of the system}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Rigid body model}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Flexible drive model}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Find the transfer function of the open-loop system}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Rigid body model}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Flexible drive model}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Obtain the controllable, observable, and Jordan canonical forms}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Rigid body model}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Controllable canonical form}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Observable canonical form}{subsection.3.1}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Jordan canonical form}{subsection.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Flexible drive model}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Controllable canonical form}{subsection.3.2}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Observable canonical form}{subsection.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Jordan canonical form}{subsection.3.2}% 15
+\BOOKMARK [1][-]{section.4}{Impulse response and the step response of the system}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Simulation}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Rigid body model}{subsection.4.1}% 18
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Flexible drive model}{subsection.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Lab results}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Plot the Bode plot of the uncompensated system and root-locus of the open-loop system}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{Rigid body model}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.2}{Flexible drive model}{section.5}% 23
+\BOOKMARK [1][-]{section.6}{Design a lead-lag controller to meet certain design specification}{}% 24
+\BOOKMARK [2][-]{subsection.6.1}{Rigid body model}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.2}{Flexible drive model}{section.6}% 26
+\BOOKMARK [1][-]{section.7}{Step, square wave, and sinusoidal response of compensated system}{}% 27
+\BOOKMARK [2][-]{subsection.7.1}{Simulation}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.2}{Lab results}{section.7}% 29
+\BOOKMARK [1][-]{section.8}{Test the robustness of the compensated system}{}% 30
+\BOOKMARK [1][-]{section.9}{Design a full state feedback control to meet the design specification}{}% 31
+\BOOKMARK [2][-]{subsection.9.1}{Rigid body model}{section.9}% 32
+\BOOKMARK [2][-]{subsection.9.2}{Flexible drive model}{section.9}% 33
+\BOOKMARK [1][-]{section.10}{Obtain the responses for full state feedback controlled system}{}% 34
+\BOOKMARK [2][-]{subsection.10.1}{Simulation}{section.10}% 35
+\BOOKMARK [2][-]{subsection.10.2}{Lab results}{section.10}% 36
+\BOOKMARK [1][-]{section.11}{Design a full-order and a reduced-order observer}{}% 37
+\BOOKMARK [2][-]{subsection.11.1}{Full-order observer}{section.11}% 38
+\BOOKMARK [3][-]{subsubsection.11.1.1}{Rigid body model}{subsection.11.1}% 39
+\BOOKMARK [3][-]{subsubsection.11.1.2}{Flexible drive model}{subsection.11.1}% 40
+\BOOKMARK [2][-]{subsection.11.2}{Step and sinusoidal response for full-order observer}{section.11}% 41
+\BOOKMARK [2][-]{subsection.11.3}{Reduced-order observer}{section.11}% 42
+\BOOKMARK [3][-]{subsubsection.11.3.1}{Rigid body model}{subsection.11.3}% 43
+\BOOKMARK [3][-]{subsubsection.11.3.2}{Flexible drive model}{subsection.11.3}% 44
+\BOOKMARK [2][-]{subsection.11.4}{Step and sinusoidal response for reduced-order observer}{section.11}% 45
+\BOOKMARK [1][-]{section.12}{Find the transfer function of the observer and controller}{}% 46
+\BOOKMARK [1][-]{section.13}{Comparison between the classical and model control theory design}{}% 47
+\BOOKMARK [1][-]{section*.51}{Appendices}{}% 48
+\BOOKMARK [1][-]{Appendix.1.A}{Matlab code used for simulation \205 plant.m}{}% 49

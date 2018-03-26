@@ -1,0 +1,53 @@
+\documentclass[tikz,14pt]{standalone}
+\usepackage{textcomp}
+\usetikzlibrary{shapes,arrows}
+\begin{document}
+% Definition of blocks:
+\tikzset{%
+  block/.style    = {draw, thick, rectangle, minimum height = 2em,
+    minimum width = 2em},
+  sum/.style      = {draw, circle, node distance = 2cm}, % Adder
+  input/.style    = {coordinate}, % Input
+  output/.style   = {coordinate} % Output
+}
+% Defining string as labels of certain blocks.
+\newcommand{\suma}{\Large$+$}
+\newcommand{\inte}{$\displaystyle \int$}
+\newcommand{\derv}{\huge$\frac{d}{dt}$}
+
+\begin{tikzpicture}[auto, thick, node distance=1.5cm, >=triangle 45]
+\draw
+	% Drawing the blocks of observable canonical form
+	% Forward parth
+	node at (0,0)[right=-3mm]{\Large \textopenbullet}
+	node [input, name=input1] {} 
+	node [block, right of = input1](b0){$\frac{gr}{J_l^*}$}
+	node [input, right of = b0, node distance = 1cm](x2dot){}
+	node [block, right of=x2dot, node distance = 0.5cm] (inte1) {\inte}
+	node [input, right of = inte1, node distance = 1cm](x2){}
+	node [sum, right of = x2, node distance = 0.5cm] (suma2) {\suma}
+	node [input, right of = suma2, node distance = 1cm](x1dot){}
+	node [block, right of=x1dot, node distance = 0.5cm] (inte2) {\inte}
+	node [input, right of = inte2, node distance = 1cm](x1){}
+	node [output, right of = x1, node distance = 0.5cm] (beforeout){}
+	node [output, right of = beforeout, node distance = 0.5cm] (output){$\theta_2$}
+	% Backward path
+        node [block, below of= suma2, node distance = 1.2cm] (a1) {$-a_1$}
+        node [input, below of = a1, node distance = 1cm](a1down){};
+    % Joining blocks. 
+    % Commands \draw with options like [->] must be written individually
+    %Forward path
+	\draw[->](input1) -- node {$T_D$}(b0);
+ 	\draw[-](b0) -- node {$\dot{x_2}$}(x2dot);
+	\draw[->]node{}(x2dot) -- node{}(inte1);
+	\draw[->](inte1) -- node{$x_2$}(x2) -- node{} (suma2);
+	\draw[->](suma2) -- node{$\dot{x_1}$}(x1dot) -- node{}(inte2);
+	\draw[->](inte2) -- node{$x_1$}(x1) -- node{}(beforeout) -- node{$\theta_2$} (output);		
+	%Backward path
+	% a3 path
+	\draw[-](beforeout) |- node{} (a1down);
+	\draw[->](a1down) -- node{}(a1);
+	\draw[->](a1) -- node{}(suma2);
+
+\end{tikzpicture}
+\end{document}

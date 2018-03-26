@@ -1,0 +1,52 @@
+\ttl@change@i {\@ne }{section}{0em}{\filcenter \large \bfseries }{\contentslabel {3ex}}{}{\titlerule *{$\cdot $} \contentspage }\relax 
+\ttl@change@v {section}{}{}{}\relax 
+\contentsline {section}{\numberline {1}Input-output equations of the system}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Rigid body model}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Flexible drive model}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Find the transfer function of the open-loop system}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Rigid body model}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Flexible drive model}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}Obtain the controllable, observable, and Jordan canonical forms}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Rigid body model}{4}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.A}Controllable canonical form}{4}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.B}Observable canonical form}{5}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.C}Jordan canonical form}{6}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Flexible drive model}{6}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.A}Controllable canonical form}{6}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.B}Observable canonical form}{8}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.C}Jordan canonical form}{9}{subsubsection.3.2.3}
+\contentsline {section}{\numberline {4}Impulse response and the step response of the system}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Simulation}{10}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.A}Rigid body model}{10}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.B}Flexible drive model}{11}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Lab results}{12}{subsection.4.2}
+\contentsline {section}{\numberline {5}Plot the Bode plot of the uncompensated system and root-locus of the open-loop system}{13}{section.5}
+\contentsline {subsection}{\numberline {5.1}Rigid body model}{13}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Flexible drive model}{14}{subsection.5.2}
+\contentsline {section}{\numberline {6}Design a lead-lag controller to meet certain design specification}{15}{section.6}
+\contentsline {subsection}{\numberline {6.1}Rigid body model}{15}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Flexible drive model}{16}{subsection.6.2}
+\contentsline {section}{\numberline {7}Step, square wave, and sinusoidal response of compensated system}{16}{section.7}
+\contentsline {subsection}{\numberline {7.1}Simulation}{16}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Lab results}{20}{subsection.7.2}
+\contentsline {section}{\numberline {8}Test the robustness of the compensated system}{21}{section.8}
+\contentsline {section}{\numberline {9}Design a full state feedback control to meet the design specification}{23}{section.9}
+\contentsline {subsection}{\numberline {9.1}Rigid body model}{23}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Flexible drive model}{23}{subsection.9.2}
+\contentsline {section}{\numberline {10}Obtain the responses for full state feedback controlled system}{24}{section.10}
+\contentsline {subsection}{\numberline {10.1}Simulation}{24}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Lab results}{27}{subsection.10.2}
+\contentsline {section}{\numberline {11}Design a full-order and a reduced-order observer}{29}{section.11}
+\contentsline {subsection}{\numberline {11.1}Full-order observer}{29}{subsection.11.1}
+\contentsline {subsubsection}{\numberline {11.1.A}Rigid body model}{29}{subsubsection.11.1.1}
+\contentsline {subsubsection}{\numberline {11.1.B}Flexible drive model}{29}{subsubsection.11.1.2}
+\contentsline {subsection}{\numberline {11.2}Step and sinusoidal response for full-order observer}{30}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Reduced-order observer}{32}{subsection.11.3}
+\contentsline {subsubsection}{\numberline {11.3.A}Rigid body model}{32}{subsubsection.11.3.1}
+\contentsline {subsubsection}{\numberline {11.3.B}Flexible drive model}{32}{subsubsection.11.3.2}
+\contentsline {subsection}{\numberline {11.4}Step and sinusoidal response for reduced-order observer}{33}{subsection.11.4}
+\contentsline {section}{\numberline {12}Find the transfer function of the observer and controller}{35}{section.12}
+\contentsline {section}{\numberline {13}Comparison between the classical and model control theory design}{35}{section.13}
+\contentsline {section}{Appendices}{I}{section*.51}
+\contentsline {section}{\numberline {A}Matlab code used for simulation -- plant.m}{I}{Appendix.1.A}
+\contentsfinish 

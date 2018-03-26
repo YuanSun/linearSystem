@@ -1,0 +1,36 @@
+\documentclass[tikz,14pt]{standalone}
+\usepackage{textcomp}
+\usetikzlibrary{shapes,arrows}
+\begin{document}
+% Definition of blocks:
+\tikzset{%
+  block/.style    = {draw, thick, rectangle, minimum height = 2em,
+    minimum width = 2em},
+  sum/.style      = {draw, circle, node distance = 2cm}, % Adder
+  input/.style    = {coordinate}, % Input
+  output/.style   = {coordinate} % Output
+}
+% Defining string as labels of certain blocks.
+\newcommand{\suma}{\Large$+$}
+\newcommand{\inte}{$\displaystyle \int$}
+\newcommand{\derv}{\huge$\frac{d}{dt}$}
+
+\begin{tikzpicture}[auto, thick, node distance=1.5cm, >=triangle 45]
+\draw
+	% Drawing the blocks of observable canonical form
+	% Forward parth
+	node at (0,0)[right=-3mm]{\Large \textopenbullet}
+	node [input, name=input1] {} 
+	node [block, right of = input1](beforeZ){$\frac{1}{s^2 + \frac{c_l^*}{J_l^*}s}$}
+	node [input, right of = beforeZ, node distance = 1.5cm](Z){}
+	node [block, right of= Z, node distance = 0.5cm] (afterZ) {$\frac{gr}{J_l^*}$}
+	node [output, right of = afterZ, node distance = 1.5cm] (output){$\theta_2 (s)$};
+
+    % Joining blocks. 
+    % Commands \draw with options like [->] must be written individually
+    %Forward path
+	\draw[->](input1) -- node {$T_D$}(beforeZ);
+ 	\draw[->](beforeZ) -- node {$Z(s)$} (Z);
+	\draw[->](Z) -- node{}(afterZ) -- node{$\theta_2(s)$}(output);
+	\end{tikzpicture}
+\end{document}
